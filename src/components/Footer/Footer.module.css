@@ -1,0 +1,28 @@
+.footer {
+  background-color: #121212;
+  color: #ddd;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #333;
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  gap: 20px;                 /* space between icons */
+}
+
+.footer-links a {
+  color: #ddd;
+  font-size: 1.5rem;         /* bigger icons */
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+  color: #1e90ff;
+  outline: none;
+}
